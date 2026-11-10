@@ -1,8 +1,14 @@
-name = "v20251104"
+name = "newry"
+account_id = "5633d2b5dabf8610889bb52e95730ee7"
 main = "_worker.js"
 compatibility_date = "2025-11-04"
 keep_vars = true
+workers_dev = false
 
-#[[kv_namespaces]]
-#binding = "KV"			#KV绑定名默认不可修改
-#id = ""				#KV数据库id
+[[kv_namespaces]]
+binding = "KV"
+id = "58d230a3bde2467ea5986adeba097068"
+
+[[routes]]
+pattern = "newry.jkcgroup.com.au"
+custom_domain = true
