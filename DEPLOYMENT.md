@@ -7,6 +7,7 @@ This fork tracks `cmliu/edgetunnel` and provides the edgetunnel 2.1 management p
 - Management panel: `https://newry.jkcgroup.com.au/admin`
 - Entry point: `_worker.js`
 - KV binding: `KV`, using the existing newry namespace
+- Initial upstream version: `2.1.20261008222327` (`a8ab11125ece9bc27983f609a6359be81b21050c`)
 
 ## Cloudflare Workers Builds
 
@@ -23,7 +24,7 @@ Pushes to `main` build and deploy this Worker. Runtime secrets are stored in Clo
 ## Local deployment
 
 ```sh
-npm install
+npm ci
 npm run build
 npm run deploy
 ```
